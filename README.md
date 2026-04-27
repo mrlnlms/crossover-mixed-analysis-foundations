@@ -1,60 +1,60 @@
 # Data Transformation in Crossover Mixed Analysis
 
-Fundamentação teórica sobre **transformação de dados** no contexto da **crossover mixed analysis** (Onwuegbuzie & Johnson, 2021).
+Theoretical foundations on **data transformation** in the context of **crossover mixed analysis** (Onwuegbuzie & Johnson, 2021).
 
-O tema central é a passagem de dados entre mundos: **quantitização** (palavras → números), **qualitização** (números → narrativas), e as implicações ontológicas dessa travessia. Cada método carrega uma ontologia embutida; transformar dados entre eles é cruzar fronteiras ontológicas.
+The central theme is the passage of data between worlds: **quantitizing** (words → numbers), **qualitizing** (numbers → narratives), and the ontological implications of that crossing. Each method carries an embedded ontology; transforming data between them means crossing ontological boundaries.
 
-## O que NÃO é
+## What this is not
 
-Não é sobre *mixed methods* no sentido convencional (combinar entrevistas com surveys, escolher entre design sequencial ou convergente). Isso é design-level e já tem cobertura ampla na literatura (Creswell, Teddlie, Plano Clark).
+This is not about *mixed methods* in the conventional sense (combining interviews with surveys, choosing between sequential or convergent designs). That is design-level work, already widely covered in the literature (Creswell, Teddlie, Plano Clark).
 
-É sobre **mixed analysis** — o que acontece dentro da análise quando se pega um dado qualitativo e o transforma em quantitativo, ou vice-versa. Onwuegbuzie & Johnson (2021) chamam essa modalidade de **crossover** e a tratam como "a forma mais integrada" de análise mista, mas a literatura tem pouca cobertura e quase não há ferramentas que a operacionalizem.
+This is about **mixed analysis** — what happens inside the analysis when a qualitative datum is transformed into a quantitative one, or vice versa. Onwuegbuzie & Johnson (2021) call this modality **crossover** and treat it as "the most integrated" form of mixed analysis, yet the literature gives it limited coverage and there are almost no tools that operationalize it.
 
-## Por que importa
+## Why it matters
 
-A maior parte da literatura de mixed methods foca no **design**. A análise mista — onde a integração realmente acontece — é muito menos discutida. E a camada **ontológica** que precede tudo (cada método carrega uma worldview embutida: quanti=realista, quali=construtivista) raramente é explicitada.
+Most of the mixed-methods literature focuses on **design**. Mixed analysis — where integration actually happens — is far less discussed. And the **ontological** layer that precedes everything (each method carries an embedded worldview: quant=realist, qual=constructivist) is rarely made explicit.
 
-A travessia ontológica que ocorre na crossover analysis é a contribuição original que este trabalho busca desenvolver.
+The ontological crossing that takes place in crossover analysis is the original contribution this work seeks to develop.
 
-## Estrutura
+## Structure
 
 ```
 .
 ├── README.md
-├── Foundations.md          ← documento principal
-├── notes/                  ← notas e sessões exploratórias
-└── analysis/               ← análises auxiliares
+├── Foundations.md          ← main document
+├── notes/                  ← notes and exploratory sessions
+└── analysis/               ← supporting analyses
 ```
 
-Material legado (PDFs e binários) fica fora do versionamento.
+Legacy material (PDFs and binaries) is kept out of version control.
 
 ## Status
 
-Em re-fundação. Direções identificadas:
+In re-foundation. Identified directions:
 
-- [ ] Seção 0 (ou reformulação da Seção 1) com enquadramento ontológico (Crotty / Herrera Batista)
-- [ ] Desenvolver "transformação de dados como travessia ontológica" — contribuição original
-- [ ] Revisão editorial do `Foundations.md` (~15-20% de corte previsto)
-- [ ] Ponte com data governance — "dados são o novo petróleo" como ontologia realista implícita
+- [ ] Section 0 (or rework of Section 1) framed ontologically (Crotty / Herrera Batista)
+- [ ] Develop "data transformation as ontological crossing" — original contribution
+- [ ] Editorial pass on `Foundations.md` (~15–20% trim expected)
+- [ ] Bridge to data governance — "data is the new oil" as implicit realist ontology
 
-## Referências centrais
+## Core references
 
 - Onwuegbuzie, A. J. & Johnson, R. B. (2021). *The Routledge Reviewer's Guide to Mixed Methods Analysis*
-- Onwuegbuzie, A. J. (2025). Genealogia da quantitização, taxonomia de tipos de dados qualitativos
-- Sandelowski, M. (2000, 2001, 2009). Natureza construída dos dados, mitos anti-número
+- Onwuegbuzie, A. J. (2025). Genealogy of quantitizing, taxonomy of qualitative data types
+- Sandelowski, M. (2000, 2001, 2009). The constructed nature of data, anti-number myths
 - Crotty, M. (1998). *The Foundations of Social Research*
 - Herrera Batista, M. A. (2021). *The Ontology of Design Research*
-- Saldaña, J. (2020). Codificação como interpretação
+- Saldaña, J. (2020). Coding as interpretation
 
-Lista completa em [`analysis/REFERENCES.md`](./analysis/REFERENCES.md).
+Full list in [`analysis/REFERENCES.md`](./analysis/REFERENCES.md).
 
-## Projetos relacionados
+## Related projects
 
-| Projeto | O que faz |
-|---------|-----------|
-| [Qualia Coding](https://github.com/mrlnlms/qualia-coding) | QDA dentro do Obsidian — analytics implementam o continuum quali→quanti |
-| [Qualia Core](https://github.com/mrlnlms/qualia-core) | Motor de análise local-first via API + plugins |
+| Project | What it does |
+|---------|--------------|
+| [Qualia Coding](https://github.com/mrlnlms/qualia-coding) | QDA inside Obsidian — analytics implement the qual→quant continuum |
+| [Qualia Core](https://github.com/mrlnlms/qualia-core) | Local-first analysis engine via API + plugins |
 
-## Licença
+## License
 
 CC BY-NC 4.0
