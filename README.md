@@ -1,41 +1,47 @@
 # Data Transformation in Crossover Mixed Analysis
 
-Theoretical foundations on **data transformation** in the context of **crossover mixed analysis** (Onwuegbuzie & Johnson, 2021).
+This repository documents an ongoing **independent research / personal R&D** project on **data transformation** in the context of **crossover mixed analysis**.
 
-The central theme is the passage of data between worlds: **quantitizing** (words → numbers), **qualitizing** (numbers → narratives), and the ontological implications of that crossing. Each method carries an embedded ontology; transforming data between them means crossing ontological boundaries.
+It explores what happens when data moves between analytic traditions: **quantitizing** (words → numbers), **qualitizing** (numbers → narratives), and the ontological questions raised by that movement.
 
-## What this is not
+## Scope
 
-This is not about *mixed methods* in the conventional sense (combining interviews with surveys, choosing between sequential or convergent designs). That is design-level work, already widely covered in the literature (Creswell, Teddlie, Plano Clark).
+This is not about *mixed methods* in the conventional design sense (for example, combining interviews and surveys in sequential or convergent designs).
 
-This is about **mixed analysis** — what happens inside the analysis when a qualitative datum is transformed into a quantitative one, or vice versa. Onwuegbuzie & Johnson (2021) call this modality **crossover** and treat it as "the most integrated" form of mixed analysis, yet the literature gives it limited coverage and there are almost no tools that operationalize it.
+This repository is about **mixed analysis**: what happens inside the analytic process when a qualitative datum is transformed into a quantitative one, or vice versa. In the literature, this is often discussed under **crossover analysis**.
 
-## Why it matters
+Most mixed-methods literature focuses on design. The analytic step — where integration actually happens — is less discussed, and the ontological assumptions embedded in each tradition are rarely made explicit. This repo works on that gap.
 
-Most of the mixed-methods literature focuses on **design**. Mixed analysis — where integration actually happens — is far less discussed. And the **ontological** layer that precedes everything (each method carries an embedded worldview: quant=realist, qual=constructivist) is rarely made explicit.
+## Current status
 
-The ontological crossing that takes place in crossover analysis is the original contribution this work seeks to develop.
+This project is still in development.
+
+The current line of inquiry focuses on the ontological layer of data transformation. A working question throughout the repo is whether crossover analysis can be understood not only as a technical operation, but also as a passage between different assumptions about what data is.
+
+The most recent thinking is concentrated in `notes/` and `analysis/`. `Foundations.md` is an earlier 2025 draft and does not yet incorporate the newer reformulation.
+
+Some of the ideas here are exploratory and still being refined.
+
+## Start here
+
+If you are reading the project for the first time:
+
+1. [`analysis/INTELLECTUAL-TIMELINE.md`](./analysis/INTELLECTUAL-TIMELINE.md)
+2. [`notes/2026-03-23-lacuna-ontologica.md`](./notes/2026-03-23-lacuna-ontologica.md)
+3. [`analysis/CONCEPTUAL-SYNTHESIS.md`](./analysis/CONCEPTUAL-SYNTHESIS.md)
+4. [`Foundations.md`](./Foundations.md) — earlier 2025 draft (~3,200 lines, 8 sections); substantive but predates the current reformulation
 
 ## Structure
 
 ```
 .
 ├── README.md
-├── Foundations.md          ← main document
-├── notes/                  ← notes and exploratory sessions
-└── analysis/               ← supporting analyses
+├── Foundations.md
+├── notes/
+└── analysis/
 ```
 
-Legacy material (PDFs and binaries) is kept out of version control.
-
-## Status
-
-In re-foundation. Identified directions:
-
-- [ ] Section 0 (or rework of Section 1) framed ontologically (Crotty / Herrera Batista)
-- [ ] Develop "data transformation as ontological crossing" — original contribution
-- [ ] Editorial pass on `Foundations.md` (~15–20% trim expected)
-- [ ] Bridge to data governance — "data is the new oil" as implicit realist ontology
+Legacy material (PDFs, binaries, and prior working material) is kept out of version control.
 
 ## Core references
 
